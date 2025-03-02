@@ -35,7 +35,7 @@ public class AntipatternExample {
             ResultSet resultSet = statement.executeQuery("SELECT * FROM people");
 
             while (resultSet.next()) {
-                System.out.println("Email: " + resultSet.getString("email")); // Cambia "name" por el nombre de la columna en tu tabla
+                System.out.println("Email: " + resultSet.getString("email"));
             }
 
             resultSet.close();
