@@ -18,7 +18,7 @@ public class AntipatternExample {
             while (resultSet.next()) {
                 System.out.println("Palabra: " + resultSet.getString("spanish"));
             }
-            System.out.println("");
+            System.out.println();
 
             resultSet.close();
             statement.close();
