@@ -8,9 +8,9 @@ import java.sql.Statement;
 
 public class AntipatternExample {
 
-  private static final String URL = "jdbc:mysql://localhost:3306/dictionary";
-  private static final String USER = "luis";
-  private static final String PASSWORD = "Shayra11";
+  public static final String URL = "jdbc:mysql://localhost:3306/dictionary";
+  public static final String USER = "luis";
+  public static final String PASSWORD = "Shayra11";
 
   private void getData(String tableName, String columnName) {
 
